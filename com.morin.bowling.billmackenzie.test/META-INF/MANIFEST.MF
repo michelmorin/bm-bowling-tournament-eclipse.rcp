@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test Plug-in
+Bundle-SymbolicName: com.morin.bowling.billmackenzie.test
+Bundle-Version: 1.0.0
+Bundle-Vendor: MORIN
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms,
+ org.eclipse.ui.views.properties.tabbed,
+ com.morin.bowling.platform,
+ org.junit4;bundle-version="4.3.1",
+ com.morin.bowling.billmackenzie;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

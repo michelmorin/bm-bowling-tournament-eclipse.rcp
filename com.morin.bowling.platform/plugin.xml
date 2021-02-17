@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="tournament" name="New Tournament" schema="schema/tournament.exsd"/>
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.morin.bowling.platform.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.morin.bowling.platform.PerspectiveBlank"
+            id="com.morin.bowling.platform.blankPerspective"
+            name="Blank Perspective"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.morin.bowling.platform.application"
+            name="Bowling Program">
+         <property
+               name="aboutText"
+               value="Welcome&#x0A;&#x0A;This software program was created by:&#x0A;&#x0A;Michel Morin"/>
+         <property
+               name="appName"
+               value="Bowling Program">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Tournament Perspective"
+            class="com.morin.bowling.billmackenzie.Perspective"
+            id="com.morin.bowling.billmackenzie.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.morin.bowling.billmackenzie.views.TeamsView"
+            icon="icons/obj16/offering_obj.gif"
+            id="com.morin.bowling.billmackenzie.views.teams"
+            name="Teams"/>
+      <view
+            class="com.morin.bowling.billmackenzie.views.ScoresView"
+            icon="icons/obj16/server_obj.gif"
+            id="com.morin.bowling.billmackenzie.views.scores"
+            name="Scores"/>
+      <view
+            class="com.morin.bowling.billmackenzie.views.ReportsView"
+            icon="icons/obj16/config_obj.gif"
+            id="com.morin.bowling.billmackenzie.views.reports"
+            name="Reports"/>
+      <view
+            class="com.morin.bowling.billmackenzie.views.PositionView"
+            icon="icons/obj16/category_obj.gif"
+            id="com.morin.bowling.billmackenzie.views.position"
+            name="Current Position"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.morin.bowling.billmackenzie.actionSet1"
+            label="Teams"
+            visible="false">
+         <menu
+               id="com.morin.bowling.billmackenzie.teams"
+               label="&amp;Teams"
+               path="additions">
+            <groupMarker name="group1"/>
+         </menu>
+         <action
+               class="com.morin.bowling.billmackenzie.actions.AddTeamAction"
+               id="com.morin.bowling.billmackenzie.addteam"
+               label="&amp;Add Team"
+               menubarPath="com.morin.bowling.billmackenzie.teams/group1"
+               style="push"/>
+         <action
+               class="com.morin.bowling.billmackenzie.actions.RemoveTeamAction"
+               id="com.morin.bowling.billmackenzie.removeteam"
+               label="&amp;Remove Team"
+               menubarPath="com.morin.bowling.billmackenzie.teams/group1"
+               style="push"/>
+         <action
+               class="com.morin.bowling.billmackenzie.actions.EditTeamAction"
+               id="com.morin.bowling.billmackenzie.editteam"
+               label="&amp;Edit Team"
+               menubarPath="com.morin.bowling.billmackenzie.teams/group1"
+               style="push"/>
+         <action
+               class="com.morin.bowling.billmackenzie.actions.SaveTournamentAction"
+               id="com.morin.bowling.billmackenzie.saveteam"
+               label="Save"
+               menubarPath="File/additions"
+               style="push"/>
+         <action
+               class="com.morin.bowling.billmackenzie.actions.SaveAsTournamentAction"
+               id="com.morin.bowling.billmackenzie.saveasAction"
+               label="Save As..."
+               menubarPath="File/additions"
+               style="push"/>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="false"
+            id="com.morin.bowling.billmackenzie.objectContribution1"
+            objectClass="com.morin.bowling.billmackenzie.model.BMTeam">
+         <action
+               class="com.morin.bowling.billmackenzie.actions.RemoveTeamAction"
+               id="com.morin.bowling.billmackenzie.removeTeamPopup"
+               label="&amp;Remove Team"/>
+         <action
+               class="com.morin.bowling.billmackenzie.actions.EditTeamAction"
+               id="com.morin.bowling.billmackenzie.editTeamPopup"
+               label="&amp;Edit Team"/>
+      </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views.properties.tabbed.propertyContributor">
+      <propertyContributor contributorId="com.morin.bowling.billmackenzie.views.teams">
+         <propertyCategory category="TeamCategory"/>
+      </propertyContributor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views.properties.tabbed.propertyTabs">
+      <propertyTabs contributorId="com.morin.bowling.billmackenzie.views.teams">
+         <propertyTab
+               category="TeamCategory"
+               id="YouthTab"
+               label="Youth"/>
+         <propertyTab
+               afterTab="YouthTab"
+               category="TeamCategory"
+               id="AdultTab"
+               label="Adult"/>
+         <propertyTab
+               afterTab="AdultTab"
+               category="TeamCategory"
+               id="TeamTab"
+               label="Team"/>
+      </propertyTabs>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views.properties.tabbed.propertySections">
+      <propertySections contributorId="com.morin.bowling.billmackenzie.views.teams">
+      	 <propertySection
+               class="com.morin.bowling.billmackenzie.properties.YouthNameSection"
+               id="Youth Name"
+               tab="YouthTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               afterSection="Youth Name"
+               class="com.morin.bowling.billmackenzie.properties.YouthAverageSection"
+               id="Youth Average"
+               tab="YouthTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               afterSection="Youth Average"
+               class="com.morin.bowling.billmackenzie.properties.YouthPOAPoolSection"
+               id="Youth POA Pool"
+               tab="YouthTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               afterSection="Youth POA Pool"
+               class="com.morin.bowling.billmackenzie.properties.YouthScratchPoolSection"
+               id="Youth Scracth Pool"
+               tab="YouthTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               class="com.morin.bowling.billmackenzie.properties.AdultNameSection"
+               id="Adult Name"
+               tab="AdultTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               afterSection="Adult Name"
+               class="com.morin.bowling.billmackenzie.properties.AdultAverageSection"
+               id="Adult Average"
+               tab="AdultTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               afterSection="Adult Average"
+               class="com.morin.bowling.billmackenzie.properties.AdultPOAPoolSection"
+               id="Adult POA Pool"
+               tab="AdultTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               afterSection="Adult POA Pool"
+               class="com.morin.bowling.billmackenzie.properties.AdultScratchPoolSection"
+               id="Adult Scratch Pool"
+               tab="AdultTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+         <propertySection
+               class="com.morin.bowling.billmackenzie.properties.TeamSection"
+               id="Centre Name Section"
+               tab="TeamTab">
+            <input type="com.morin.bowling.billmackenzie.model.BMTeam"/>
+         </propertySection>
+      </propertySections>
+   </extension>
+   <extension
+         point="com.morin.bowling.platform.tournament">
+      <tournament
+            close="com.morin.bowling.billmackenzie.actions.CloseTournamentAction"
+            id="billmackenzie"
+            name="Bill MacKenzie"
+            open="com.morin.bowling.billmackenzie.actions.OpenTournamentAction"
+            perspective="com.morin.bowling.billmackenzie.perspective"/>
+   </extension>
+</plugin>

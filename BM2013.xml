@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tournament name="dummy" id="billmackenzie">
+	<team id="62" bowling="Merivale">
+		<adultbowler name="Bev Flowers" average="163" scratchpool="false" poapool="true" games="137,115,165,176,126"/>
+		<youthbowler name="Brianna Powell" average="170" scratchpool="false" poapool="true" games="210,163,178,175,170"/>
+	</team>
+	<team id="61" bowling="Orleans">
+		<adultbowler name="Laurier Blanchard" average="189" scratchpool="false" poapool="false" games="206,223,263,204,182"/>
+		<youthbowler name="Cassie Wood" average="197" scratchpool="true" poapool="false" games="202,162,261,188,187"/>
+	</team>
+	<team id="60" bowling="Orleans">
+		<adultbowler name="Chantale Cyr" average="234" scratchpool="true" poapool="true" games="245,230,243,254,173"/>
+		<youthbowler name="DJ Villeneuve" average="253" scratchpool="true" poapool="true" games="316,295,254,250,285"/>
+	</team>
+	<team id="59" bowling="Walkley">
+		<adultbowler name="Andrew Flynn" average="191" scratchpool="true" poapool="true" games="167,161,189,305,181"/>
+		<youthbowler name="Spencer Murray" average="206" scratchpool="true" poapool="true" games="209,219,234,169,189"/>
+	</team>
+	<team id="58" bowling="Walkley">
+		<adultbowler name="Jeff Wrinn" average="173" scratchpool="true" poapool="true" games="117,178,165,157,227"/>
+		<youthbowler name="James Wrinn" average="175" scratchpool="true" poapool="true" games="140,141,162,215,196"/>
+	</team>
+	<team id="57" bowling="Walkley">
+		<adultbowler name="Steve Patterson" average="233" scratchpool="true" poapool="true" games="173,250,222,178,180"/>
+		<youthbowler name="Kaitlyn Beaulieu" average="191" scratchpool="true" poapool="true" games="166,172,152,193,193"/>
+	</team>
+	<team id="56" bowling="Walkley">
+		<adultbowler name="Karen Quesnel" average="172" scratchpool="false" poapool="true" games="251,220,161,167,188"/>
+		<youthbowler name="Trevor Beaulieu" average="194" scratchpool="true" poapool="true" games="172,221,203,183,197"/>
+	</team>
+	<team id="55" bowling="Walkley">
+		<adultbowler name="Rick Morin" average="235" scratchpool="true" poapool="true" games="169,234,176,188,171"/>
+		<youthbowler name="Austin Laprade" average="204" scratchpool="true" poapool="true" games="230,204,178,217,186"/>
+	</team>
+	<team id="54" bowling="Walkley">
+		<adultbowler name="Dave Anderson" average="232" scratchpool="true" poapool="true" games="177,229,166,240,201"/>
+		<youthbowler name="Evan Davis" average="195" scratchpool="false" poapool="false" games="210,249,187,229,161"/>
+	</team>
+	<team id="53" bowling="Renfrew">
+		<adultbowler name="Diane Lapensee" average="231" scratchpool="true" poapool="true" games="161,253,251,215,178"/>
+		<youthbowler name="Nathan Gadde" average="184" scratchpool="false" poapool="true" games="212,138,150,199,151"/>
+	</team>
+	<team id="52" bowling="Renfrew">
+		<adultbowler name="Steph Lapensee" average="278" scratchpool="true" poapool="true" games="270,162,220,223,184"/>
+		<youthbowler name="Brayden Sparling" average="196" scratchpool="true" poapool="true" games="207,209,168,204,232"/>
+	</team>
+	<team id="51" bowling="Renfrew">
+		<adultbowler name="Scott Lewis" average="238" scratchpool="true" poapool="true" games="238,229,247,258,244"/>
+		<youthbowler name="Ryen Schaly" average="153" scratchpool="false" poapool="true" games="196,208,203,178,164"/>
+	</team>
+	<team id="50" bowling="Renfrew">
+		<adultbowler name="Kerrie Best" average="196" scratchpool="false" poapool="true" games="227,170,208,154,155"/>
+		<youthbowler name="Erika Clarke" average="166" scratchpool="false" poapool="true" games="214,247,179,180,183"/>
+	</team>
+	<team id="49" bowling="Renfrew">
+		<adultbowler name="Mike Godda" average="207" scratchpool="true" poapool="true" games="194,170,174,222,169"/>
+		<youthbowler name="Sydney Marier" average="160" scratchpool="false" poapool="true" games="138,126,197,204,158"/>
+	</team>
+	<team id="48" bowling="Renfrew">
+		<adultbowler name="Wendy Hart" average="161" scratchpool="false" poapool="true" games="142,145,114,152,153"/>
+		<youthbowler name="AJ Hart" average="151" scratchpool="false" poapool="true" games="146,129,120,108,125"/>
+	</team>
+	<team id="47" bowling="Renfrew">
+		<adultbowler name="Brenda Kubusheshki" average="157" scratchpool="false" poapool="true" games="138,104,135,114,195"/>
+		<youthbowler name="Mike Mahusky" average="204" scratchpool="true" poapool="true" games="179,211,196,199,227"/>
+	</team>
+	<team id="46" bowling="Renfrew">
+		<adultbowler name="Joe Hart" average="223" scratchpool="false" poapool="true" games="249,147,214,207,213"/>
+		<youthbowler name="Caitlyn Hart" average="155" scratchpool="false" poapool="true" games="170,144,128,158,145"/>
+	</team>
+	<team id="45" bowling="Renfrew">
+		<adultbowler name="Chris Mahusky" average="222" scratchpool="true" poapool="true" games="323,154,281,282,257"/>
+		<youthbowler name="Ryan Theobald" average="121" scratchpool="false" poapool="true" games="125,110,139,150,129"/>
+	</team>
+	<team id="44" bowling="Renfrew">
+		<adultbowler name="Robert Stewart" average="231" scratchpool="true" poapool="true" games="250,248,241,201,265"/>
+		<youthbowler name="Campbell Taylor" average="130" scratchpool="false" poapool="false" games="134,124,135,111,86"/>
+	</team>
+	<team id="43" bowling="Renfrew">
+		<adultbowler name="Grace Best" average="173" scratchpool="false" poapool="true" games="124,168,157,148,151"/>
+		<youthbowler name="Kaitlyn Lewis" average="139" scratchpool="false" poapool="true" games="109,118,237,184,149"/>
+	</team>
+	<team id="42" bowling="Orleans">
+		<adultbowler name="Kevin Ayotte" average="203" scratchpool="true" poapool="true" games="173,157,264,213,251"/>
+		<youthbowler name="Austin Toll" average="202" scratchpool="true" poapool="true" games="170,213,277,182,170"/>
+	</team>
+	<team id="41" bowling="Orleans">
+		<adultbowler name="Matt Leonard" average="250" scratchpool="true" poapool="false" games="205,257,248,216,261"/>
+		<youthbowler name="Tyler Robinson" average="216" scratchpool="true" poapool="true" games="221,226,211,280,276"/>
+	</team>
+	<team id="40" bowling="Orleans">
+		<adultbowler name="Cindy Toll" average="190" scratchpool="false" poapool="true" games="196,194,177,158,200"/>
+		<youthbowler name="Sara Bellefeuille" average="173" scratchpool="false" poapool="true" games="226,139,181,183,248"/>
+	</team>
+	<team id="39" bowling="Orleans">
+		<adultbowler name="Pat Hotte" average="209" scratchpool="true" poapool="true" games="202,278,224,157,194"/>
+		<youthbowler name="Kayla Larsen" average="188" scratchpool="true" poapool="true" games="177,151,204,193,278"/>
+	</team>
+	<team id="38" bowling="Orleans">
+		<adultbowler name="Andrea Jones" average="177" scratchpool="false" poapool="true" games="187,253,244,220,269"/>
+		<youthbowler name="Jordan Toll" average="146" scratchpool="false" poapool="true" games="151,129,191,189,159"/>
+	</team>
+	<team id="36" bowling="Orleans">
+		<adultbowler name="Lindsay Toll" average="188" scratchpool="false" poapool="true" games="178,200,210,165,129"/>
+		<youthbowler name="Tilson Toll" average="160" scratchpool="false" poapool="true" games="168,165,167,147,231"/>
+	</team>
+	<team id="35" bowling="Merivale">
+		<adultbowler name="Nicole Lagallez" average="211" scratchpool="true" poapool="true" games="201,199,188,180,166"/>
+		<youthbowler name="Stephanie Beaudoin" average="131" scratchpool="false" poapool="false" games="156,149,120,163,142"/>
+	</team>
+	<team id="34" bowling="Merivale">
+		<adultbowler name="Tracy Graham" average="195" scratchpool="false" poapool="true" games="252,195,168,253,219"/>
+		<youthbowler name="Ashley Kelly" average="151" scratchpool="false" poapool="true" games="192,141,190,153,184"/>
+	</team>
+	<team id="33" bowling="Merivale">
+		<adultbowler name="Chris Bull" average="234" scratchpool="true" poapool="true" games="177,228,300,197,296"/>
+		<youthbowler name="Hannah-Lynn Bull" average="181" scratchpool="false" poapool="true" games="201,169,180,158,185"/>
+	</team>
+	<team id="32" bowling="Orleans">
+		<adultbowler name="Matt Janveau" average="222" scratchpool="true" poapool="true" games="207,198,220,173,218"/>
+		<youthbowler name="Stephane Joanisse" average="186" scratchpool="true" poapool="true" games="251,182,214,212,219"/>
+	</team>
+	<team id="31" bowling="Merivale">
+		<adultbowler name="Colleen Bull" average="220" scratchpool="true" poapool="true" games="210,320,302,242,235"/>
+		<youthbowler name="Chelsea Farsey" average="157" scratchpool="false" poapool="false" games="153,183,145,177,151"/>
+	</team>
+	<team id="30" bowling="Merivale">
+		<adultbowler name="Victor Collins" average="249" scratchpool="true" poapool="true" games="264,301,231,216,240"/>
+		<youthbowler name="Chelsey Major" average="174" scratchpool="true" poapool="true" games="203,175,185,192,197"/>
+	</team>
+	<team id="29" bowling="Merivale">
+		<adultbowler name="Mindy Menard" average="178" scratchpool="false" poapool="false" games="174,168,150,153,255"/>
+		<youthbowler name="Jordan Leroux" average="142" scratchpool="false" poapool="true" games="225,148,110,99,139"/>
+	</team>
+	<team id="28" bowling="Merivale">
+		<adultbowler name="Nick Janveau" average="244" scratchpool="false" poapool="false" games="302,249,284,247,315"/>
+		<youthbowler name="Kyle Major" average="184" scratchpool="true" poapool="true" games="197,179,182,250,162"/>
+	</team>
+	<team id="27" bowling="Merivale">
+		<adultbowler name="Heidi Mogg" average="152" scratchpool="false" poapool="true" games="152,174,144,150,233"/>
+		<youthbowler name="Ross Mogg" average="153" scratchpool="false" poapool="false" games="129,147,120,168,220"/>
+	</team>
+	<team id="26" bowling="Merivale">
+		<adultbowler name="Steve Nother" average="171" scratchpool="false" poapool="true" games="143,158,159,151,162"/>
+		<youthbowler name="Chris Nother" average="149" scratchpool="false" poapool="true" games="156,165,142,221,142"/>
+	</team>
+	<team id="25" bowling="Merivale">
+		<adultbowler name="Frank Ladouceur" average="207" scratchpool="true" poapool="true" games="311,257,165,157,267"/>
+		<youthbowler name="Stephanie Ladouceur" average="198" scratchpool="true" poapool="true" games="199,219,162,209,180"/>
+	</team>
+	<team id="24" bowling="Merivale">
+		<adultbowler name="Krissy Giaccone" average="176" scratchpool="false" poapool="false" games="159,172,184,201,183"/>
+		<youthbowler name="Conner Diotte " average="145" scratchpool="false" poapool="true" games="142,163,101,152,131"/>
+	</team>
+	<team id="23" bowling="Merivale">
+		<adultbowler name="Sarah Perrone" average="205" scratchpool="true" poapool="true" games="198,274,212,280,226"/>
+		<youthbowler name="Connor Krogh" average="152" scratchpool="false" poapool="true" games="212,165,218,192,143"/>
+	</team>
+	<team id="22" bowling="Merivale">
+		<adultbowler name="Louise Nother" average="149" scratchpool="false" poapool="true" games="147,124,100,132,102"/>
+		<youthbowler name="Michael Nother" average="172" scratchpool="false" poapool="true" games="233,155,250,169,132"/>
+	</team>
+	<team id="21" bowling="Merivale">
+		<adultbowler name="Sandro Giaccone" average="216" scratchpool="true" poapool="true" games="270,182,181,244,198"/>
+		<youthbowler name="Dante Santaromita" average="174" scratchpool="true" poapool="true" games="167,270,199,188,185"/>
+	</team>
+	<team id="20" bowling="Merivale">
+		<adultbowler name="Fred Keitel" average="202" scratchpool="true" poapool="true" games="136,182,181,189,245"/>
+		<youthbowler name="Dylan Leroux" average="151" scratchpool="false" poapool="false" games="180,208,138,147,148"/>
+	</team>
+	<team id="19" bowling="Merivale">
+		<adultbowler name="Dan Vermette" average="141" scratchpool="false" poapool="true" games="177,115,187,123,154"/>
+		<youthbowler name="Taylor Seguin" average="156" scratchpool="true" poapool="true" games="167,168,175,165,166"/>
+	</team>
+	<team id="18" bowling="Kemptville">
+		<adultbowler name="Jos Van Deloo" average="186" scratchpool="false" poapool="false" games="199,139,160,151,160"/>
+		<youthbowler name="Brandon King" average="175" scratchpool="false" poapool="false" games="171,246,159,146,211"/>
+	</team>
+	<team id="17" bowling="Kemptville">
+		<adultbowler name="Cathy Nesbitt" average="183" scratchpool="false" poapool="true" games="183,154,206,186,253"/>
+		<youthbowler name="Angela Chrysler" average="148" scratchpool="false" poapool="false" games="146,118,195,166,188"/>
+	</team>
+	<team id="16" bowling="Kemptville">
+		<adultbowler name="Julia Luther" average="142" scratchpool="true" poapool="true" games="117,146,126,155,133"/>
+		<youthbowler name="Rebecca Dell Palme" average="135" scratchpool="false" poapool="true" games="165,102,151,92,144"/>
+	</team>
+	<team id="15" bowling="Kemptville">
+		<adultbowler name="Brian Wilson" average="193" scratchpool="true" poapool="true" games="264,182,135,180,173"/>
+		<youthbowler name="Breanna Luther" average="123" scratchpool="true" poapool="true" games="147,157,158,125,117"/>
+	</team>
+	<team id="14" bowling="Kemptville">
+		<adultbowler name="Troy Bronzan" average="207" scratchpool="true" poapool="false" games="157,175,283,171,237"/>
+		<youthbowler name="Issac Tremblay" average="130" scratchpool="false" poapool="true" games="164,127,118,147,94"/>
+	</team>
+	<team id="13" bowling="Kemptville">
+		<adultbowler name="Bruce Nesbitt" average="202" scratchpool="true" poapool="true" games="169,212,159,174,218"/>
+		<youthbowler name="Carson Kennedy" average="158" scratchpool="true" poapool="true" games="230,156,187,147,182"/>
+	</team>
+	<team id="12" bowling="Kemptville">
+		<adultbowler name="Robert Watt" average="205" scratchpool="false" poapool="true" games="205,192,216,256,217"/>
+		<youthbowler name="Jordan Burley" average="202" scratchpool="true" poapool="true" games="246,239,154,245,158"/>
+	</team>
+	<team id="11" bowling="Kemptville">
+		<adultbowler name="Barb Delaney" average="191" scratchpool="false" poapool="true" games="181,170,165,131,162"/>
+		<youthbowler name="Andrew Chrysler" average="151" scratchpool="false" poapool="false" games="134,146,153,123,148"/>
+	</team>
+	<team id="10" bowling="Kemptville">
+		<adultbowler name="Kristel Arcand" average="148" scratchpool="false" poapool="true" games="110,151,143,163,152"/>
+		<youthbowler name="Micaela Tremblay" average="120" scratchpool="false" poapool="true" games="78,111,87,91,122"/>
+	</team>
+	<team id="9" bowling="Gratton">
+		<adultbowler name="Jen Dopson" average="156" scratchpool="false" poapool="true" games="147,139,225,197,112"/>
+		<youthbowler name="Austin Dopson" average="177" scratchpool="true" poapool="true" games="184,145,186,240,101"/>
+	</team>
+	<team id="8" bowling="Gratton">
+		<adultbowler name="Tom Arnold" average="159" scratchpool="false" poapool="true" games="145,148,138,188,112"/>
+		<youthbowler name="Logan Dopson" average="157" scratchpool="false" poapool="true" games="156,160,194,114,170"/>
+	</team>
+	<team id="7" bowling="Gratton">
+		<adultbowler name="Steve Brinkworth" average="223" scratchpool="true" poapool="true" games="153,272,211,209,177"/>
+		<youthbowler name="Kayla Leitch" average="142" scratchpool="false" poapool="true" games="192,144,114,131,192"/>
+	</team>
+	<team id="6" bowling="Cornwall">
+		<adultbowler name="Marc Vivarais" average="214" scratchpool="true" poapool="true" games="176,140,276,200,167"/>
+		<youthbowler name="Emily Vivarais" average="215" scratchpool="true" poapool="true" games="212,133,219,179,237"/>
+	</team>
+	<team id="5" bowling="Cornwall">
+		<adultbowler name="Jon Granger" average="244" scratchpool="true" poapool="true" games="261,224,295,297,257"/>
+		<youthbowler name="Nolan Leroux" average="205" scratchpool="true" poapool="true" games="274,225,242,255,161"/>
+	</team>
+	<team id="4" bowling="Cornwall">
+		<adultbowler name="Scott Dumoulin" average="243" scratchpool="true" poapool="true" games="267,208,333,240,282"/>
+		<youthbowler name="Emilie Dumoulin" average="174" scratchpool="true" poapool="true" games="163,199,184,186,208"/>
+	</team>
+	<team id="3" bowling="Cornwall">
+		<adultbowler name="Robert Wright" average="244" scratchpool="true" poapool="true" games="230,229,256,204,210"/>
+		<youthbowler name="Brandon Rombough" average="231" scratchpool="true" poapool="true" games="234,191,266,195,170"/>
+	</team>
+	<team id="2" bowling="Cornwall">
+		<adultbowler name="Chris Roth" average="226" scratchpool="true" poapool="true" games="199,348,283,223,135"/>
+		<youthbowler name="Jason Bourget" average="179" scratchpool="false" poapool="true" games="164,182,188,189,194"/>
+	</team>
+	<team id="1" bowling="Cornwall">
+		<adultbowler name="Peter Marion" average="242" scratchpool="true" poapool="true" games="221,252,289,173,213"/>
+		<youthbowler name="Kelsie Granger" average="232" scratchpool="true" poapool="true" games="213,221,219,174,206"/>
+	</team>
+</tournament>

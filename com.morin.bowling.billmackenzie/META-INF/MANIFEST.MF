@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tournament Plug-in
+Bundle-SymbolicName: com.morin.bowling.billmackenzie;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.morin.bowling.billmackenzie.Activator
+Bundle-Vendor: MORIN
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms,
+ org.eclipse.ui.views.properties.tabbed,
+ com.morin.bowling.platform
+Bundle-ActivationPolicy: lazy
+Export-Package: com.morin.bowling.billmackenzie,
+ com.morin.bowling.billmackenzie.actions,
+ com.morin.bowling.billmackenzie.model,
+ com.morin.bowling.billmackenzie.utilities
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
